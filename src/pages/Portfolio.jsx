@@ -12,6 +12,10 @@ const images = [
   "/images/portfolio/p7.jpeg",
   "/images/portfolio/p8.jpeg",
   "/images/portfolio/p9.jpeg",
+  "/images/portfolio/p10.jpeg",
+  "/images/portfolio/p11.jpeg",
+  "/images/portfolio/p12.jpeg",
+  "/images/portfolio/p13.jpeg",
 ];
 export default function Portfolio() {
   const [selectedImage, setSelectedImage] = useState(null);
