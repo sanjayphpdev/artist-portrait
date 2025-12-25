@@ -39,22 +39,39 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {open && (
-        <div className="md:hidden border-t bg-white px-4 py-4 space-y-4">
-          <Link onClick={() => setOpen(false)} to="/">
-            Home
-          </Link>
-          <Link onClick={() => setOpen(false)} to="/portfolio">
-            Portfolio
-          </Link>
-          <Link onClick={() => setOpen(false)} to="/pricing">
-            Pricing
-          </Link>
-          <a
-            href="https://wa.me/919702512779"
-            className="block text-center bg-black text-white py-2 rounded-md"
-          >
-            Order Now
-          </a>
+        <div className="md:hidden border-t bg-white px-4 py-6">
+          <nav className="flex flex-col gap-4 text-lg">
+            <Link
+              to="/"
+              onClick={() => setOpen(false)}
+              className="py-2 border-b"
+            >
+              Home
+            </Link>
+
+            <Link
+              to="/portfolio"
+              onClick={() => setOpen(false)}
+              className="py-2 border-b"
+            >
+              Portfolio
+            </Link>
+
+            <Link
+              to="/pricing"
+              onClick={() => setOpen(false)}
+              className="py-2 border-b"
+            >
+              Pricing
+            </Link>
+
+            <a
+              href="https://wa.me/919702512779"
+              className="mt-4 bg-black text-white py-3 rounded-md text-center"
+            >
+              Order Now
+            </a>
+          </nav>
         </div>
       )}
     </header>
