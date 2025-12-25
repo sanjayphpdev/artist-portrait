@@ -1,15 +1,18 @@
-import { RouterProvider } from "react-router-dom";
-import { router } from "./router";
-import { useLocation } from "react-router-dom";
-import { useEffect } from "react";
-import { trackPage } from "./utils/analytics";
-function App() {
-  const location = useLocation();
+import { Routes, Route, useLocation } from "react-router-dom";
+import Home from "./pages/Home";
+import Portfolio from "./pages/Portfolio";
+import Pricing from "./pages/Pricing";
 
-  useEffect(() => {
-    trackPage(location.pathname);
-  }, [location]);
-  return <RouterProvider router={router} />;
+function App() {
+  const location = useLocation(); // ✅ Safe now
+
+  return (
+    <Routes location={location}>
+      <Route path="/" element={<Home />} />
+      <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/pricing" element={<Pricing />} />
+    </Routes>
+  );
 }
 
 export default App;
