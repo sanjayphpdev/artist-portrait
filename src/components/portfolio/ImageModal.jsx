@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { trackWhatsAppClick } from "../../utils/whatsappTracker";
 
 export default function ImageModal({ image, onClose }) {
   // Close on ESC key
@@ -45,6 +46,7 @@ export default function ImageModal({ image, onClose }) {
             href="https://wa.me/918657134924?text=Hi%20I%20want%20a%20handmade%20portrait"
             target="_blank"
             className="bg-green-500 text-white px-4 py-2 rounded-md"
+            onClick={() => trackWhatsAppClick("Photo model click")}
           >
             WhatsApp Now
           </a>

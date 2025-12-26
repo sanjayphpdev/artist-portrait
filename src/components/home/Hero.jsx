@@ -1,3 +1,5 @@
+import { trackWhatsAppClick } from "../../utils/whatsappTracker";
+
 export default function Hero() {
   return (
     <section className="bg-white">
@@ -25,6 +27,7 @@ export default function Hero() {
               href="https://wa.me/918657134924"
               target="_blank"
               className="border border-black px-6 py-3 rounded-md hover:bg-black hover:text-white transition"
+              onClick={() => trackWhatsAppClick("Hero button click")}
             >
               WhatsApp Us
             </a>

@@ -1,5 +1,6 @@
 import Navbar from "../components/common/Navbar";
 import Footer from "../components/common/Footer";
+import { trackWhatsAppClick } from "../utils/whatsappTracker";
 
 export default function Pricing() {
   const pricing = [
@@ -25,6 +26,7 @@ export default function Pricing() {
                 " Portrait"
               }
               className="block mt-4 bg-black text-white text-center py-2 rounded"
+              onClick={() => trackWhatsAppClick(`Pricing ${type.type}`)}
             >
               Get Exact Price
             </a>

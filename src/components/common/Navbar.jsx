@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { trackWhatsAppClick } from "../../utils/whatsappTracker";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -26,6 +27,7 @@ export default function Navbar() {
           <a
             href="https://wa.me/918657134924"
             className="bg-black text-white px-4 py-2 rounded-md"
+            onClick={() => trackWhatsAppClick("Menubar click")}
           >
             Order Now
           </a>
@@ -68,6 +70,7 @@ export default function Navbar() {
             <a
               href="https://wa.me/918657134924"
               className="mt-4 bg-black text-white py-3 rounded-md text-center"
+              onClick={() => trackWhatsAppClick("Mobile Menu Click")}
             >
               Order Now
             </a>
