@@ -3,9 +3,10 @@ import Navbar from "../components/common/Navbar";
 import Footer from "../components/common/Footer";
 import ImageModal from "../components/portfolio/ImageModal";
 const images = [
-  "/images/portfolio/p1.jpeg",
+  "/images/portfolio/p14.jpeg",
   "/images/portfolio/p2.jpeg",
   "/images/portfolio/p3.jpeg",
+  "/images/portfolio/p1.jpeg",
   "/images/portfolio/p4.jpeg",
   "/images/portfolio/p5.jpeg",
   "/images/portfolio/p6.jpeg",

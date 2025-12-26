@@ -1,5 +1,5 @@
 const images = [
-  "/images/portfolio/p1.jpeg",
+  "/images/portfolio/p14.jpeg",
   "/images/portfolio/p2.jpeg",
   "/images/portfolio/p6.jpeg",
   "/images/portfolio/p7.jpeg",
