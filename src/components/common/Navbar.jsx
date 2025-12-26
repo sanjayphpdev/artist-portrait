@@ -24,7 +24,7 @@ export default function Navbar() {
             Pricing
           </Link>
           <a
-            href="https://wa.me/919702512779"
+            href="https://wa.me/918657134924"
             className="bg-black text-white px-4 py-2 rounded-md"
           >
             Order Now
@@ -66,7 +66,7 @@ export default function Navbar() {
             </Link>
 
             <a
-              href="https://wa.me/919702512779"
+              href="https://wa.me/918657134924"
               className="mt-4 bg-black text-white py-3 rounded-md text-center"
             >
               Order Now

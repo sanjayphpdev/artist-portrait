@@ -20,7 +20,7 @@ export default function Pricing() {
             <p>Starting from ₹{type.price}</p>
             <a
               href={
-                "https://wa.me/919702512779?text=Hi%20I%20want%20a%20handmade%20" +
+                "https://wa.me/918657134924?text=Hi%20I%20want%20a%20handmade%20" +
                 type.type +
                 " Portrait"
               }

@@ -42,7 +42,7 @@ export default function ImageModal({ image, onClose }) {
         <div className="bg-white p-4 flex justify-between items-center rounded-b-lg">
           <p className="font-medium">Want a portrait like this?</p>
           <a
-            href="https://wa.me/919702512779?text=Hi%20I%20want%20a%20handmade%20portrait"
+            href="https://wa.me/918657134924?text=Hi%20I%20want%20a%20handmade%20portrait"
             target="_blank"
             className="bg-green-500 text-white px-4 py-2 rounded-md"
           >
