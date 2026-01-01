@@ -24,6 +24,14 @@ export default function Navbar() {
           <Link to="/pricing" className="hover:text-gray-600">
             Pricing
           </Link>
+
+          <Link
+            to="/corporate-gifting"
+            className="text-gray-700 hover:text-black"
+          >
+            Corporate Gifting
+          </Link>
+
           <a
             href="https://wa.me/918657134924"
             className="bg-black text-white px-4 py-2 rounded-md"
@@ -65,6 +73,14 @@ export default function Navbar() {
               className="py-2 border-b"
             >
               Pricing
+            </Link>
+
+            <Link
+              to="/corporate-gifting"
+              onClick={() => setOpen(false)}
+              className="py-2 border-b"
+            >
+              Corporate Gifting
             </Link>
 
             <a
