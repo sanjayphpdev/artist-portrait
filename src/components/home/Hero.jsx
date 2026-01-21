@@ -7,12 +7,12 @@ export default function Hero() {
         {/* Left Content */}
         <div>
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-            Turn Your Photos Into <br />
-            <span className="text-gray-600">Timeless Hand-Drawn Art</span>
+            Turn a Photos Into <br />
+            <span className="text-gray-600">beautiful hand-drawn portrait</span>
           </h1>
 
           <p className="mt-6 text-gray-600 text-lg">
-            100% handmade pencil portraits • No AI • Museum-quality finish
+            Not printed. Not AI. 100% handmade pencil art.
           </p>
 
           <div className="mt-8 flex gap-4">
